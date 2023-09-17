@@ -17,14 +17,6 @@ export default function BaseLayout() {
       setDarkMode(oppositeOfCurrentDarkMode)
    }
 
-   useEffect(() => {
-      if (detectedDarkMode) {
-         setDarkMode(detectedDarkMode)
-      } else {
-         localStorage.setItem('darkMode', 'false')
-      }
-   }, [])
-
    return (
       <Box className={darkMode ? Style.dark : Style.light}>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
