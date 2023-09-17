@@ -66,8 +66,8 @@ export const info = {
     bio: "Hello! My name is Farrukh. I'm a Back-End developer!",
     skills:
         {
-            languages: ['Typescript', 'Javascript', "REST", "GRAPHQL"],
-            frameworks: ['React.js', 'Express.js', 'Nest.js'],
+            languages: ['Typescript', 'Javascript', "REST", "GRAPHQL", "HTML", "CSS"],
+            frameworks: ['React.js', "Node.js", 'Express.js', 'Nest.js'],
             databases: ["MongoDB", "PostgreSQL", "Sequelize", "Mongoose", "(TypeORM)", "(Prisma)"],
             tools: ["Git", "Github", "Postman", "(Docker)", "npm",  "Swagger"]
         }
@@ -79,6 +79,10 @@ export const info = {
         },
         {
             label: 'Traveling',
+            emoji: ''
+        },
+        {
+            label: "Movie",
             emoji: ''
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
